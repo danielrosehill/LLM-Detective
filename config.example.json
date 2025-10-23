@@ -1,0 +1,25 @@
+{
+  "provider": "ollama",
+  "model": "qwen2.5:14b-instruct-q5_K_M",
+  "base_url": "http://localhost:11434",
+  "simulate_human": true,
+  "tasks": [
+    "knowledge_cutoff",
+    "vision_capability",
+    "audio_capability",
+    "bias_detection",
+    "censorship_test",
+    "guardrail_test",
+    "conspiracy_theory",
+    "positive_reinforcement",
+    "agentic_capability"
+  ],
+  "output_file": "investigation_report.json",
+  "human_simulation": {
+    "typing_speed_wpm": 50,
+    "min_delay_seconds": 1,
+    "max_delay_seconds": 5,
+    "task_interval_min": 5,
+    "task_interval_max": 15
+  }
+}
